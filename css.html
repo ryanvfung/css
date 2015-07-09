@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <style type="text/css">
+        #cssList li {
+            list-style-type: none;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+        $(function(){
+            $('#cssTemplate').val('document loaded');
+            $('input[type="checkbox"]').on('change',function(){
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="container">
+    <h1>CSS</h1>
+    <div class="row">
+        <div class="col-md-6 col-md-push-6">
+            <label for="cssTemplate">Template CSS:</label>
+            <textarea id="cssTemplate" class="form-control"></textarea>
+        </div>
+        <div class="col-md-6 col-md-pull-6">
+<p>The following is an exhaustive list of CSS properties as documented on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Mozilla Developer Network</a>, obtained on <span title="2015-07-08">8<sup>th</sup> July, 2015</span>.</p>
+<ol id="cssList">
+    <li>A
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>additive-symbols</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>align-content</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>align-items</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>align-self</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>all</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>animation</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>animation-delay</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>animation-direction</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>animation-duration</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>animation-fill-mode</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>animation-iteration-count</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>animation-name</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>animation-play-state</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>animation-timing-function</code></label></li>
+        </ol></li>
+    <li>B
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>backface-visibility</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>background</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>background-attachment</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>background-blend-mode</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>background-clip</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>background-color</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>background-image</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>background-origin</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>background-position</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>background-repeat</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>background-size</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>block-size</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-block-end</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-block-end-color</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-block-end-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-block-end-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-block-start</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-block-start-color</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-block-start-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-block-start-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-bottom</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-bottom-color</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-bottom-left-radius</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-bottom-right-radius</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-bottom-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-bottom-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-collapse</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-color</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-image</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-image-outset</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-image-repeat</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-image-slice</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-image-source</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-image-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-inline-end</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-inline-end-color</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-inline-end-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-inline-end-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-inline-start</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-inline-start-color</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-inline-start-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-inline-start-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-left</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-left-color</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-left-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-left-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-radius</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-right</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-right-color</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-right-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-right-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-spacing</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-top</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-top-color</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-top-left-radius</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-top-right-radius</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-top-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-top-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>border-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>bottom</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>box-decoration-break</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>box-shadow</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>box-sizing</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>break-after</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>break-before</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>break-inside</code></label></li>
+        </ol></li>
+    <li>C
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>caption-side</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>ch</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>clear</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>clip</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>clip-path</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>cm</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>color</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>columns</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>column-count</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>column-fill</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>column-gap</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>column-rule</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>column-rule-color</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>column-rule-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>column-rule-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>column-span</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>column-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>content</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>counter-increment</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>counter-reset</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>cursor</code></label></li>
+        </ol></li>
+    <li>D
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>deg</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>direction</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>display</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>dpcm</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>dpi</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>dppx</code></label></li>
+        </ol></li>
+    <li>E
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>em</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>empty-cells</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>ex</code></label></li>
+        </ol></li>
+    <li>F
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>fallback</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>filter</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>flex</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>flex-basis</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>flex-direction</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>flex-flow</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>flex-grow</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>flex-shrink</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>flex-wrap</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>float</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-family</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-feature-settings</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-kerning</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-language-override</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-size</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-size-adjust</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-stretch</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-synthesis</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-variant</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-variant-alternates</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-variant-caps</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-variant-east-asian</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-variant-ligatures</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-variant-numeric</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-variant-position</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>font-weight</code></label></li>
+        </ol></li>
+    <li>G
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>grad</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-area</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-auto-columns</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-auto-flow</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-auto-position</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-auto-rows</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-column</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-column-start</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-column-end</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-row</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-row-start</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-row-end</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-template</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-template-areas</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-template-rows</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>grid-template-columns</code></label></li>
+        </ol></li>
+    <li>H
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>height</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>hyphens</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>hz</code></label></li>
+        </ol></li>
+    <li>I
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>image-rendering</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>image-resolution</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>image-orientation</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>ime-mode</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>in</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>inherit</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>initial</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>inline-size</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>isolation</code></label></li>
+        </ol></li>
+    <li>J
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>justify-content</code></label></li>
+        </ol></li>
+    <li>K
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>khz</code></label></li>
+        </ol></li>
+    <li>L
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>left</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>letter-spacing</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>line-break</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>line-height</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>list-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>list-style-image</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>list-style-position</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>list-style-type</code></label></li>
+        </ol></li>
+    <li>M
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>margin</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>margin-block-end</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>margin-block-start</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>margin-bottom</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>margin-inline-end</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>margin-inline-start</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>margin-left</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>margin-right</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>margin-top</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>marks</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>mask</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>mask-type</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>max-block-size</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>max-height</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>max-inline-size</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>max-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>max-zoom</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>min-block-size</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>min-height</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>min-inline-size</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>min-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>min-zoom</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>mix-blend-mode</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>mm</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>ms</code></label></li>
+        </ol></li>
+    <li>N
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>negative</code></label></li>
+        </ol></li>
+    <li>O
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>object-fit</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>object-position</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>offset-block-end</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>offset-block-start</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>offset-inline-end</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>offset-inline-start</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>opacity</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>order</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>orientation</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>orphans</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>outline</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>outline-color</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>outline-offset</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>outline-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>outline-width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>overflow</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>overflow-wrap</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>overflow-x</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>overflow-y</code></label></li>
+        </ol></li>
+    <li>P
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>pad</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>padding</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>padding-block-end</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>padding-block-start</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>padding-bottom</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>padding-inline-end</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>padding-inline-start</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>padding-left</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>padding-right</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>padding-top</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>page-break-after</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>page-break-before</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>page-break-inside</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>pc</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>perspective</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>perspective-origin</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>pointer-events</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>position</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>prefix</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>pt</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>px</code></label></li>
+        </ol></li>
+    <li>Q
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>quotes</code></label></li>
+        </ol></li>
+    <li>R
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>rad</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>range</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>rem</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>resize</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>right</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>ruby-align</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>ruby-merge</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>ruby-position</code></label></li>
+        </ol></li>
+    <li>S
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>s</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>scroll-behavior</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>scroll-snap-coordinate</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>scroll-snap-destination</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>scroll-snap-points-x</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>scroll-snap-points-y</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>scroll-snap-type</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>scroll-snap-type-x</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>scroll-snap-type-y</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>shape-image-threshold</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>shape-margin</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>shape-outside</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>speak-as</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>src</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>suffix</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>symbols</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>system</code></label></li>
+        </ol>T
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>table-layout</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>tab-size</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>text-align</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>text-align-last</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>text-combine-upright</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>text-decoration</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>text-decoration-color</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>text-decoration-line</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>text-decoration-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>text-indent</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>text-orientation</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>text-overflow</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>text-rendering</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>text-shadow</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>text-transform</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>text-underline-position</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>top</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>touch-action</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>transform</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>transform-box</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>transform-origin</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>transform-style</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>transition</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>transition-delay</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>transition-duration</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>transition-property</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>transition-timing-function</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>turn</code></label></li>
+        </ol></li>
+    <li>U
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>unicode-bidi</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>unicode-range</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>unset</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>user-zoom</code></label></li>
+        </ol></li>
+    <li>V
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>vertical-align</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>vh</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>visibility</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>vmax</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>vmin</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>vw</code></label></li>
+        </ol></li>
+    <li>W
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>white-space</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>widows</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>width</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>will-change</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>word-break</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>word-spacing</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>word-wrap</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>writing-mode</code></label></li>
+        </ol></li>
+    <li>X Y Z
+        <ol>
+            <li class="checkbox"><label><input type="checkbox"><code>z-index</code></label></li>
+            <li class="checkbox"><label><input type="checkbox"><code>zoom</code></label></li>
+        </ol></li>
+</ol>
+        </div>
+    </div>
+</div>
+</body>
+</html>
