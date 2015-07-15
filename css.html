@@ -6,39 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CSS</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <style type="text/css">
-        #cssList li {
-            list-style-type: none;
-        }
-        #cssTemplateContainer {
-            position: fixed;
-            top: 70px;
-            width: 400px;
-        }
-        .inherit {
-            color: #666;
-        }
-    </style>
+    <link rel="stylesheet" href="css.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script>
-        $(function(){
-            $('#cssTemplate').text('document loaded');
-            $('input[type="checkbox"]').on('change',updateTemplateCSS);
-        });
-        function updateTemplateCSS () {
-            var CSS = '';
-            $('input:checked').parent().each(function(){
-                it = $(this).find('code');
-                var template = it.data('template');
-                if (!template) {
-                    template = '<span class="inherit">inherit</span>';
-                }
-                CSS += it.text() + ': ' + template + ';\n';
-            });
-            $('#cssTemplate').html(CSS);
-        }
-    </script>
+    <script src="css.js"></script>
 </head>
 <body>
 <div class="container">
