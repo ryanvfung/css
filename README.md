@@ -1,6 +1,8 @@
 CSS
 ===
 
+**This project is obsolete and replaced by my [CSScomb settings](https://github.com/ryanvfung/preferences/#css)**
+
 A quick templating tool to generate ordered lines of desired CSS property-value pairs with placeholder values.
 
 Built on [Bootstrap](http://getbootstrap.com/) and [jQuery](https://jquery.com/).
